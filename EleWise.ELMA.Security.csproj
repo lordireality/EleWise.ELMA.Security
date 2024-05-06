@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\g.zykin\Desktop\рандомные краши\AppCrash_w3wp.exe_33f63356c7b9f86fab2e305b114b93c128e7a2_98baeb8b_cab_eea24b14\Web\EleWise.ELMA.Security.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B3A56C2E-0465-4DFC-A972-179AA36D6F4B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>EleWise.ELMA.Security</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>lib\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EleWise.ELMA.Packaging">
+      <HintPath>lib\EleWise.ELMA.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="EleWise.ELMA.SDK">
+      <HintPath>lib\EleWise.ELMA.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="EleWise.ELMA.SDK.Diagrams">
+      <HintPath>lib\EleWise.ELMA.SDK.Diagrams.dll</HintPath>
+    </Reference>
+    <Reference Include="EleWise.ELMA.SDK.Web">
+      <HintPath>lib\EleWise.ELMA.SDK.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="EleWise.TemplateGenerator.Merged">
+      <HintPath>lib\EleWise.TemplateGenerator.Merged.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens">
+      <HintPath>lib\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>lib\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Diagram">
+      <HintPath>lib\Nevron.Diagram.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.Presentation">
+      <HintPath>lib\Nevron.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.System">
+      <HintPath>lib\Nevron.System.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_003CModule_003E{9D81226B-04DC-47C4-9A98-AE317F609.cs" />
+    <Compile Include="_003CModule_003E{b43de956-07de-4797-8c8e-245f9d909.cs" />
+    <Compile Include="EleWise\ELMA\Security\IActiveUserSessionService.cs" />
+    <Compile Include="EleWise\ELMA\Security\ActiveUserSessionService.cs" />
+    <Compile Include="EleWise\ELMA\Security\AdminGlobalPermissionDelegate.cs" />
+    <Compile Include="EleWise\ELMA\Security\PackageChangesCacheJobRepository.cs" />
+    <Compile Include="EleWise\ELMA\Security\IRoleTypeSelectorGroupsCategory.cs" />
+    <Compile Include="EleWise\ELMA\Security\AdminPermissionsDelegate.cs" />
+    <Compile Include="EleWise\ELMA\Security\InstanceParentPermissionsDelegate.cs" />
+    <Compile Include="EleWise\ELMA\Security\PasswordChangeHelper.cs" />
+    <Compile Include="EleWise\ELMA\Security\SecurityService.cs" />
+    <Compile Include="EleWise\ELMA\Security\InternalSecurityServiceBase.cs" />
+    <Compile Include="EleWise\ELMA\Security\OrganizationModelPublishException.cs" />
+    <Compile Include="EleWise\ELMA\Security\OrganizationModelPublishWarning.cs" />
+    <Compile Include="EleWise\ELMA\Security\PublicMetadataFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\__AssemblyInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\__Resources__AssemblyInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\AuthenticationTokenService.cs" />
+    <Compile Include="EleWise\ELMA\Security\InstanceExpressionPermissionsDelegate.cs" />
+    <Compile Include="EleWise\ELMA\Security\CommonRoleTypes.cs" />
+    <Compile Include="EleWise\ELMA\Security\DefaultRoleAssignee.cs" />
+    <Compile Include="EleWise\ELMA\Security\IInternalSecurityService.cs" />
+    <Compile Include="EleWise\ELMA\Security\InternalSecurityService.cs" />
+    <Compile Include="EleWise\ELMA\Security\InternalSecurityServiceExpress.cs" />
+    <Compile Include="EleWise\ELMA\Security\InternalSecurityServiceOracle.cs" />
+    <Compile Include="EleWise\ELMA\Security\InternalSecurityServiceStandart.cs" />
+    <Compile Include="EleWise\ELMA\Security\FormsAuthenticationService.cs" />
+    <Compile Include="EleWise\ELMA\Security\GroupPermission.cs" />
+    <Compile Include="EleWise\ELMA\Security\GroupPermissionManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\InstanceExpressionPermissionManagerBehavior.cs" />
+    <Compile Include="EleWise\ELMA\Security\ExpressionPermissionBase`2.cs" />
+    <Compile Include="EleWise\ELMA\Security\InstanceSettingsPermissionBase`2.cs" />
+    <Compile Include="EleWise\ELMA\Security\InstanceSettingsPermissionChildBase`3.cs" />
+    <Compile Include="EleWise\ELMA\Security\InstanceSettingsPermissionManagerBehavior.cs" />
+    <Compile Include="EleWise\ELMA\Security\InstanceSettingsPermissionsDelegate.cs" />
+    <Compile Include="EleWise\ELMA\Security\UserModelMembershipEventHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\MembershipService.cs" />
+    <Compile Include="EleWise\ELMA\Security\PermissionManagmentService.cs" />
+    <Compile Include="EleWise\ELMA\Security\PermissionProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\PermissionTypeRoleService.cs" />
+    <Compile Include="EleWise\ELMA\Security\__ModuleInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\ReplacementPeriodJobRepository.cs" />
+    <Compile Include="EleWise\ELMA\Security\RunWithElevatedPrivilegiesService.cs" />
+    <Compile Include="EleWise\ELMA\Security\RunWithElevatedPrivilegiesServiceCacheKeyFormatter.cs" />
+    <Compile Include="EleWise\ELMA\Security\SecurityConstants.cs" />
+    <Compile Include="EleWise\ELMA\Security\SecurityPrivilegeUsersAccessGroup.cs" />
+    <Compile Include="EleWise\ELMA\Security\SimpleAuthenticationService.cs" />
+    <Compile Include="EleWise\ELMA\Security\ProfilePermissionsDelegate.cs" />
+    <Compile Include="EleWise\ELMA\Security\TrustedDeviceService.cs" />
+    <Compile Include="EleWise\ELMA\Security\UserChangesLoader.cs" />
+    <Compile Include="EleWise\ELMA\Security\UserHolder.cs" />
+    <Compile Include="EleWise\ELMA\Security\UserNameAlreadyExistsException.cs" />
+    <Compile Include="EleWise\ELMA\Security\UserSecuritySetHelper.cs" />
+    <Compile Include="EleWise\ELMA\Security\ViewPermissionManagerBehavior.cs" />
+    <Compile Include="EleWise\ELMA\Security\_NamespaceInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\ExtensionPoints\IEntityPermissionAccessRequestProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\ExtensionPoints\IPermissionManagmentServiceExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\ExtensionPoints\ISearchUsesElementsOrganization.cs" />
+    <Compile Include="EleWise\ELMA\Security\ExtensionPoints\ISyncPermissionHolderExtensionPoint.cs" />
+    <Compile Include="EleWise\ELMA\Security\ExtensionPoints\IUserSecuritySetCacheUpdateExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\ExtensionPoints\IReplacementRuleExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\ExtensionPoints\IUnblockUserExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\AbsenceInitHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\AbstractCAdESBES.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\AbstractCAdEST.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\AbstractCAdESXLongType1.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\AbstractDefaultDigitalSignatureType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\AuthCryptoAction.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\AuthTokenDbStructureProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\CapiComCryptoProviderImpl.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\CapiComAuthCryptoProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\CapiComAuthSettingsModule.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\CryptoProviderBase.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\CryptoProviderSettingsBase.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\CertificationAuthorityInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\CryptoProviderSettingsBase_SR.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\CertificationAuthorityInfo_SR.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\CryptoProviderSettingsModuleBase`2.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\DefaultDigitalSignatureType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\ExternalMembershipInstancesSettings.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\ExternalMembershipInstancesSettingsModule.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\BaseReplacementRuleExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\NotificationUserFunctions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\BaseUserLogonSweepHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\SecuritySearchUsesElementsOrganization.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\UserPropertyProcessMetadataExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\UserSecurityProfileSchedulerJobRepository.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\BaseEntityUserTypeSelector.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\UserEntityUserTypeSelector.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\UserGroupEntityUserTypeSelector.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\SecuritySettings.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\SecuritySettings_SR.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\SecuritySettingsModule.cs" />
+    <Compile Include="EleWise\ELMA\Security\Components\SystemUserSystemEventEvaluator.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\EntityPermissionService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\IdAndTypeRole.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\ExternalMembershipImportManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\IClassMetadataPropertyPermissionAdapter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\IEntityPermissionService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\IProfilePermission.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\AuthCryptoProviderService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\CryptoActionsService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\CryptoProviderServiceBase`1.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\ExternalMembershipManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\ICryptoActionsService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\ICryptoProviderServiceBase.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\IExternalMembershipManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\IPropertyInstanceService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\UpdateUserSecuritySetCacheQueueManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\IPropertyPermissionAdapter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\IProfileResolver.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\LocalizationService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\PropertyInstanceService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\PropertyPermissionAdapter`3.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\PropertyPermissionsChangedEventArgs.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\PropertyPermissionService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\TimeZoneService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\ProfilePermissionDescriptor.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\ProfilePermissionResolver.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\PublicSignatureService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\ClientModulesService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\IPublicApplicationAuthValidator.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\PublicApplicationService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\DefaultApplicationValidator.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\ElmaAgentDefaultApplicationValidator.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\DesignerDefaultApplicationValidator.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\DevServerDefaultApplicationValidator.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\PublicCacheService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\PublicClientService.cs" />
+    <Compile Include="EleWise\ELMA\Security\Services\API\SessionCache.cs" />
+    <Compile Include="EleWise\ELMA\Security\Validation\OrganizationValidationMessage.cs" />
+    <Compile Include="EleWise\ELMA\Security\Validation\OrganizationValidationMessageType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\EntityTypePublicApplicationProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\OrganizationItemDescriptor.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\OrganizationSubDiagramTypeConvention.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\OrganizationSubDiagramTypeDescriptor.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\EntityUserDescriptor.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\OrganizationDiagramTypeConvention.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\OrganizationDiagramTypeDescriptor.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\SecurityPlatformTypeDescriptorProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\Settings\ComplexExecutorSettings.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\Settings\OrganizationItemSettings.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\Settings\OrganizationSubDiagramTypeSettings.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\Settings\EntityUserSettings.cs" />
+    <Compile Include="EleWise\ELMA\Security\Types\Settings\OrganizationDiagramTypeSettings.cs" />
+    <Compile Include="EleWise\ELMA\Security\QueryInFunctions\CurrentUserGroupsFunction.cs" />
+    <Compile Include="EleWise\ELMA\Security\QueryInFunctions\GetChiefByUserFunction.cs" />
+    <Compile Include="EleWise\ELMA\Security\QueryInFunctions\GetUserSubordinateFunction.cs" />
+    <Compile Include="EleWise\ELMA\Security\QueryInFunctions\GroupUsersFunction.cs" />
+    <Compile Include="EleWise\ELMA\Security\QueryInFunctions\UserGroupsFunction.cs" />
+    <Compile Include="EleWise\ELMA\Security\QueryInFunctions\UserOrganisationItemsFunction.cs" />
+    <Compile Include="EleWise\ELMA\Security\QueryFunctionResults\CurrentUserQueryResult.cs" />
+    <Compile Include="EleWise\ELMA\Security\PropertyHandlers\ChangeAuthorPropertyHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\PropertyHandlers\CreationAuthorPropertyHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\PropertyHandlers\PropertyHandlersActivation.cs" />
+    <Compile Include="EleWise\ELMA\Security\PropertyHandlers\PropertyHandlersListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Properties\Resources.cs" />
+    <Compile Include="EleWise\ELMA\Security\DefaultProperties\ChangeAuthorDefaultProperty.cs" />
+    <Compile Include="EleWise\ELMA\Security\DefaultProperties\CreationAuthorDefaultProperty.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Models\OrganizationItemDTO.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Models\OrganizationModelDTO.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Models\OrganizationVersionDTO.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Models\UserDTO.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Models\UserGroupDTO.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Models\UserGroupDTOComparer.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Managers\IOrganizationDTOManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Managers\IOrganizationItemDTOManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Managers\IUserDTOManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Managers\IUserGroupDTOManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Managers\OrganizationItemDTOManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Managers\UserDTOManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Managers\OrganizationDTOManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\Managers\UserGroupDTOManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\AutoMaps\OrganizationItemMap.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\AutoMaps\OrganizationModelMap.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\AutoMaps\UserGroupMap.cs" />
+    <Compile Include="EleWise\ELMA\Security\DTO\AutoMaps\UserMap.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\OrganizationSubDiagram.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\OrganizationSubDiagrams.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\OrganizationDiagram.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\OrganizationAnnotationConnectorShape.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\OrganizationAnnotationShape.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\NestedStructureShape.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\OrgArtifactGroupElementShape.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\DepartmentShape.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\EmployeeGroupShape.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\OrganizationConnector.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\OrganizationShape.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\OrganizationShapes.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\OrgShapeLabel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\OrgShapeMode.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Shapes\PositionShape.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Elements\OrganizationAnnotationElement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Elements\NestedStructureElement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Elements\OrgArtifactGroupElement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Elements\OrgConnectorElementAnnotation.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Elements\DepartmentElement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Elements\EmployeeGroupElement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Elements\OrganizationElement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Elements\OrgConnectorElement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Diagrams\Elements\PositionElement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Scheduling\RemoveExpiredPublicCachePeriodJobRepository.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\UserCacheEventListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\UserCertificateListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\AbsenceListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\UserListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\SecurityCacheSetIdPermissionEventHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\PublicApplicationListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\EntityInstancePermissionsListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\EntityInstanceDefaultPermissionEventListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\SecurityCacheSetIdListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\GroupUpdate.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\OrganizationItemUpdate.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\SecurityCacheListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\SecurityCacheUnitOfWorkListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\UserGroupListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Listeners\UserGroupPermissionListener.cs" />
+    <Compile Include="EleWise\ELMA\Security\Notifications\SecurityNotificationsDataSource.cs" />
+    <Compile Include="EleWise\ELMA\Security\Notifications\UserTemplateGeneratorFunctions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Notifications\Impl\RecipientTypeHandlers\UserIdRecipientHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Notifications\Impl\RecipientTypeHandlers\UserRecipientHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\AbsenceManagmentType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\ChangeTargetUsersModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\AddPermissionModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IGroundsForAbsence.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IGroundsForAbsence.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IGroundsForAbsenceFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IBlockUserModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IChangeReplacementsBlockUserModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IPropertyAccessByUserFunc.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\OrgstructureElementUsesDTO.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\ReplacementManagmentType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\UserSecurityProfileActions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_UserSecurityProfileActions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserSecurityProfile.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IUserSecurityProfile.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\AuthToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\AuthTokenMap.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IAbstractPropertyAccess.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IAbstractPropertyProfile.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IPropertyOwnerProfile.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUser.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\PropertyAccessCacheItem.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IReplacementRule.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IReplacementRule.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IReplacementRuleFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserCryptoProfile.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IUserCryptoProfile.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\CertificateInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\ComplexExecutor.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\ComplexExecutorInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\DeviceToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IDeviceToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\EmployeesEmployDateOutputMode.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_EmployeesEmployDateOutputMode.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\NotificationFlowSettings.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\TrustedDeviceType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_TrustedDeviceType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserCertificate.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IUserCertificate.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserCertificateFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserPublicKeyToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IUserPublicKeyToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserPublicKeyTokenFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\UserTrustedDevices.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\UserTrustedDevices_SR.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserSettingsModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\EmployeesBirthdaysOutputMode.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_EmployeesBirthdaysOutputMode.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\OrganizationItemFindMode.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_OrganizationItemFindMode.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\AbsenceStatus.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_AbsenceStatus.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IAssignedRoleStereotype.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IAssignedRoleStereotype.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\OrganizationItemType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_OrganizationItemType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IPersonalGroup.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IPersonalGroupFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\ReplacementMode.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_ReplacementMode.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\ReplacementStatus.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_ReplacementStatus.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\UserGroupActions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\UserStatus.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_UserStatus.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\WorkerDisplayType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_WorkerDisplayType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\AssignedRoleTypeModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\PermissionAccessType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\PermissionObjectType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\PermissionModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\UserExtensions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IAbsence.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IAbsence.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IAbsenceFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IOrganizationItem.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IOrganizationItem.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IOrganizationModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IOrganizationModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\Recipient.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IReplacement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IReplacement.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IReplacementFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\UserActions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_UserActions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\__Resources_IUser.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserGroup.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\IUserGroupFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\Worker.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\WorkerListContainer.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\_NamespaceInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IClientSessionDataSets.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\__Resources_IClientSessionDataSets.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IClientSessionDataSetsFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IPublicApplication.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\__Resources_IPublicApplication.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IPublicApplicationFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IPublicApplicationToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\__Resources_IPublicApplicationToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IPublicApplicationTokenFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IPublicClientCacheToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\__Resources_IPublicClientCacheToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IPublicClientCacheTokenFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IPublicClientSession.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\__Resources_IPublicClientSession.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\IPublicClientSessionFilter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\API\_NamespaceInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\ActiveUserSession\ActivePrivilegeUsersInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\ActiveUserSession\ActiveUsersSessionInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\Crypto\DefaultCryptoProviderSettings.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\Crypto\DefaultCryptoProviderSettingsSR.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\Crypto\ISigner.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\Crypto\IVerifyResult.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\Crypto\Signer.cs" />
+    <Compile Include="EleWise\ELMA\Security\Models\Crypto\VerifyResult.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\PackageChangesManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\UserSecurityProfileManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\ReplacementRuleManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\UserCryptoProfileManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\AssignedRoleStereotypeManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\CertificationAuthorityManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\ClientSessionDataSetsManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\LocalStorageManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\UserCertificateManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\UserPublicKeyTokenManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\PublicApplicationTokenManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\PublicClientCacheTokenManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\PublicClientSessionManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\PersonalGroupManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\AbsenceManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\OrganizationItemManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\OrganizationModelManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\ReplacementManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\UserGroupManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\UserManager.cs" />
+    <Compile Include="EleWise\ELMA\Security\Managers\HierarchyChiefDisplayModel.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\TokenConsts.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\TokenExtensions.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\Services\JwtTokenService.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\Services\IJwtTokenService.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\Services\JwtAuthTokenService.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\Services\RefreshTokenService.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\Services\IRefreshTokenService.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\Scheduling\RemoveExpiredRefreshTokenJobRepository.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\Models\RefreshTokenDbStructureProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\Models\RefreshToken.cs" />
+    <Compile Include="EleWise\ELMA\Security\JWT\Models\RefreshTokenMap.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ILicenseWorkplaceExceededExceptionEventHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\IDigitalSignatureType.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ExclusionEntityNullifierSecurity.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ExternalMembershipSettingsExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ICryptoProviderBase2.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\IUserSecurityProfileEventHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ICryptoAction.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ICertificateCryptoAction.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ICryptoProviderBase.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\CryptoProviderBaseExtensions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\IAuthCryptoProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\IEntityUserTypeSelector.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ISecurityCacheSetIdAction.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ISystemRolePermissions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\X509Certificate2Extensions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\ModuleContainerEvents.cs" />
+    <Compile Include="EleWise\ELMA\Security\Extensions\UserCertificateExtensions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Events\ILoginDigitalSignatureEventHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Events\GroupPermissionOperation.cs" />
+    <Compile Include="EleWise\ELMA\Security\Events\GroupPermissionEventArgs.cs" />
+    <Compile Include="EleWise\ELMA\Security\Events\IGroupPermissionEventHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Events\ISecurityCacheSetIdEventHandler.cs" />
+    <Compile Include="EleWise\ELMA\Security\Events\SecurityCacheSetIdEventArgs.cs" />
+    <Compile Include="EleWise\ELMA\Security\API\Service\v1\ISecurityService.cs" />
+    <Compile Include="EleWise\ELMA\Security\API\Service\v1\__ISecurityServiceResources.cs" />
+    <Compile Include="EleWise\ELMA\Security\API\Service\v1\SecurityService.cs" />
+    <Compile Include="EleWise\ELMA\Security\API\Models\SubordinateUsersResponse.cs" />
+    <Compile Include="EleWise\ELMA\Security\DynamicAPI\PublicApiSecurityNodeEntityProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\DevServer\SecurityTypeDescriptorProvider.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\SecurityDeployHelper.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Export\SecurityExportSetting.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Export\SecurityExportConsts.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Export\SecurityExportExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Import\FormHeaderImportSaveActions.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Import\SecurityExecuteMetadataPropertyExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Import\UserGroupImportEntitySaveAction.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Import\UserImportEntitySaveAction.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Import\UserSecurityProfileImportEntitySaveAction.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Import\OrganizationModelImportEntitySaveAction.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Import\SecurityImportExtension.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Components\SecurityChapterBuilder.cs" />
+    <Compile Include="EleWise\ELMA\Security\Deploy\Components\SecurityPostEntityXmlSerializer.cs" />
+    <Compile Include="EleWise\ELMA\Security\Db\FillUserSecuritySetCache.cs" />
+    <Compile Include="EleWise\ELMA\Security\Db\SecurityDbStructure.cs" />
+    <Compile Include="EleWise\ELMA\Security\BPMApps\SecurityBAConverter.cs" />
+    <Compile Include="EleWise\ELMA\Security\BPMApps\UserGroupBAItem.cs" />
+    <Compile Include="EleWise\ELMA\Security\BPMApps\SecurityBAChapter.cs" />
+    <Compile Include="EleWise\ELMA\Security\Audit\LoginAuditContainer.cs" />
+    <Compile Include="EleWise\ELMA\Security\Audit\HistoryPermissionInfo.cs" />
+    <Compile Include="EleWise\ELMA\Security\Actors\ExternalMembershipImportManagerActor.cs" />
+    <Compile Include="EleWise\ELMA\Security\Actors\IExternalMembershipImportManagerActor.cs" />
+    <Compile Include="EleWise\ELMA\Security\Actors\IUpdateUserSecuritySetCacheQueueManagerActor.cs" />
+    <Compile Include="EleWise\ELMA\Security\Actors\UpdateUserSecuritySetCacheQueueManagerActor.cs" />
+    <Compile Include="EleWise\ELMA\Deploy\Export\Entities\UserExport.cs" />
+    <Compile Include="EleWise\ELMA\Documents\Components\SecurityCustomTableUpdater.cs" />
+    <Compile Include="rTtVXgHRgBSsFavshV\fousyr1O5TImehMQsy.cs" />
+    <Compile Include="SG9KiyIbtdgGDf12qr\z2jc63fLkugS1X8Q9N.cs" />
+    <Compile Include="j3AmrhgkCleVTGdEwA\TKW1L3mlUyvXmg29jA.cs" />
+    <Compile Include="CERTADMINLib\CCertAdmin.cs" />
+    <Compile Include="CERTADMINLib\CCertView.cs" />
+    <Compile Include="CERTADMINLib\ICertAdmin.cs" />
+    <Compile Include="CERTADMINLib\ICertAdmin2.cs" />
+    <Compile Include="CERTADMINLib\ICertView.cs" />
+    <Compile Include="CERTADMINLib\ICertView2.cs" />
+    <Compile Include="CERTADMINLib\IEnumCERTVIEWCOLUMN.cs" />
+    <Compile Include="CERTADMINLib\IEnumCERTVIEWROW.cs" />
+    <Compile Include="CERTCLIENTLib\CCertRequest.cs" />
+    <Compile Include="CERTCLIENTLib\ICertRequest.cs" />
+    <Compile Include="CERTCLIENTLib\ICertRequest2.cs" />
+    <Compile Include="CERTCLIENTLib\ICertRequest3.cs" />
+    <Compile Include="CERTENROLLLib\CERTENROLL_OBJECTID.cs" />
+    <Compile Include="CERTENROLLLib\CObjectId.cs" />
+    <Compile Include="CERTENROLLLib\CObjectIds.cs" />
+    <Compile Include="CERTENROLLLib\CX500DistinguishedName.cs" />
+    <Compile Include="CERTENROLLLib\CX509CertificateRequestPkcs10.cs" />
+    <Compile Include="CERTENROLLLib\CX509Enrollment.cs" />
+    <Compile Include="CERTENROLLLib\CX509Extension.cs" />
+    <Compile Include="CERTENROLLLib\CX509ExtensionEnhancedKeyUsage.cs" />
+    <Compile Include="CERTENROLLLib\CX509ExtensionKeyUsage.cs" />
+    <Compile Include="CERTENROLLLib\CX509Extensions.cs" />
+    <Compile Include="CERTENROLLLib\CX509PrivateKey.cs" />
+    <Compile Include="CERTENROLLLib\EncodingType.cs" />
+    <Compile Include="CERTENROLLLib\IObjectId.cs" />
+    <Compile Include="CERTENROLLLib\IObjectIds.cs" />
+    <Compile Include="CERTENROLLLib\IX500DistinguishedName.cs" />
+    <Compile Include="CERTENROLLLib\IX509CertificateRequest.cs" />
+    <Compile Include="CERTENROLLLib\IX509CertificateRequestPkcs10.cs" />
+    <Compile Include="CERTENROLLLib\IX509CertificateRequestPkcs10V2.cs" />
+    <Compile Include="CERTENROLLLib\IX509Enrollment.cs" />
+    <Compile Include="CERTENROLLLib\IX509Enrollment2.cs" />
+    <Compile Include="CERTENROLLLib\IX509Extension.cs" />
+    <Compile Include="CERTENROLLLib\IX509ExtensionEnhancedKeyUsage.cs" />
+    <Compile Include="CERTENROLLLib\IX509ExtensionKeyUsage.cs" />
+    <Compile Include="CERTENROLLLib\IX509Extensions.cs" />
+    <Compile Include="CERTENROLLLib\IX509PrivateKey.cs" />
+    <Compile Include="CERTENROLLLib\InstallResponseRestrictionFlags.cs" />
+    <Compile Include="CERTENROLLLib\X500NameFlags.cs" />
+    <Compile Include="CERTENROLLLib\X509CertificateEnrollmentContext.cs" />
+    <Compile Include="CERTENROLLLib\X509KeySpec.cs" />
+    <Compile Include="CERTENROLLLib\X509KeyUsageFlags.cs" />
+    <Compile Include="CERTENROLLLib\X509ProviderType.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31\lSfgApatkdxsVcGcrktoFd.resx" />
+    <EmbeddedResource Include="EleWise\ELMA\Security\Db\SecurityDbStructure.xml" />
+    <EmbeddedResource Include="EleWise\ELMA\Security\Models\User\CustomCodeTemplate.cs" />
+    <EmbeddedResource Include="EleWise\ELMA\Security\Notifications\Security\User.xml" />
+    <EmbeddedResource Include="EleWise\ELMA\Security\Properties\Resources.resx" />
+    <EmbeddedResource Include="whokcFwakqXXPs9WSw.UsohImbPPvG6j754sx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
